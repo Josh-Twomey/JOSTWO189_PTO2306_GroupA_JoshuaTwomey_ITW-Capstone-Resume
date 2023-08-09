@@ -1,0 +1,180 @@
+h1 {
+  color: #1b7f89;
+  font-size: 40px;
+  text-align: center;
+  background-color: #324b4e;
+  padding: 10px;
+  margin: 0% -10px;
+}
+
+p {
+  text-align: center;
+  border: 3px solid #1b7f89;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#intro {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: #324b4e;
+  font-size: 30px;
+}
+
+html{
+  background: #324b4e url(../images-folder/background-image.jpg);
+  background-size: cover;
+}
+
+body {background-color: #b7beb2;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 80%;
+  padding: 10px;
+}
+
+header {
+  background-color: #b7beb2;
+  margin: 400px 0px 0px 0px;
+  padding: 0;
+}
+
+#nav-top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+footer {
+  background-color: #b7beb2;
+  margin: 10px 0;
+  padding: 0px 0px 3px 0px;
+}
+#ContactDetails {
+  color: #b7beb2;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+#Name {
+  color: #1b7f89;
+  font-size: 40px;
+  text-align: center;
+  background-color: #324b4e;
+  padding: 10px;
+  margin: 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: #1b7f89 solid 3px;
+  background-color: #d3fbd8;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: #1b7f89 solid 3px;
+  background-color: #d3fbd8;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: #1b7f89 solid 3px;
+  background-color: #d3fbd8;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+label {
+  text-align: left;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #1b7f89;
+}
+
+/* ==============Mobile==============*/
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  #Name {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  p {font-size: 13px;}
+
+  a {font-size: 19px;}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  #Name {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {font-size: 16px;}
+
+  a {font-size: 24px;}
+
+}
