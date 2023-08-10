@@ -84,6 +84,15 @@ header {
   grid-column: 1/3;
 }
 
+.skills-flex{
+  display: flex;
+  
+}
+
+.skill-flex{
+  list-style-type: none;
+}
+
 .links {
   display: flex;
   gap: 5px;
