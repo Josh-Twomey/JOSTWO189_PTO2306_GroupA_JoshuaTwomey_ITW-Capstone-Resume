@@ -86,11 +86,14 @@ header {
 
 .skills-flex{
   display: flex;
-  
+  justify-content: space-around;
 }
 
 .skill-flex{
   list-style-type: none;
+  padding: 5px;
+  background-color: #8AAAE5;
+  color: #FFFFFF;
 }
 
 .links {
@@ -230,6 +233,13 @@ input[type=submit]:hover{background-color: #8AAAE5;
     text-align: center;
     display:block;
 }
+ .skills-flex{
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  height: 40vh;
+}
+
 
 }
 
