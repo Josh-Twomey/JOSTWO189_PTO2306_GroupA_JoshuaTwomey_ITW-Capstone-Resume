@@ -23,7 +23,7 @@ h2 {
   padding: 10px;
   margin: 10px;
 }
-/*test*/
+
 html{
   background: #8AAAE5 url(./images-folder/background-image.jpg);
   background-size: cover;
@@ -242,6 +242,8 @@ input[type=submit]:hover{background-color: #8AAAE5;
 
 
 }
+
+/* ==============Small Laptop==============*/
 
 @media only screen and (min-width: 769px) and (max-width:1024px) {
   h1 {
