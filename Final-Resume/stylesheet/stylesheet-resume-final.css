@@ -98,7 +98,10 @@ header {
 
 .skills-flex{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
 }
 
 .skill-flex{
