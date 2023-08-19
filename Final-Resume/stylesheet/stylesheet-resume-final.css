@@ -8,6 +8,24 @@ h1 {
   border-radius: 5px;
 }
 
+h2 {
+  color: #8AAAE5;
+  font-size: 40px;
+  text-align: center;
+  background-color: #404756;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+h3 {
+  text-align: center;
+  color: #404756;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
 p {
   text-align: center;
   font-size: 20px;
@@ -16,13 +34,7 @@ p {
 }
 
 
-h2 {
-  text-align: center;
-  color: #404756;
-  font-size: 30px;
-  padding: 10px;
-  margin: 10px;
-}
+
 
 html{
   background: #8AAAE5 url(./images-folder/background-image.jpg);
