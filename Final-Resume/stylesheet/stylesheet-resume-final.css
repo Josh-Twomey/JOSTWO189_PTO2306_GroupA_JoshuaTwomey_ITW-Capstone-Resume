@@ -1,11 +1,16 @@
+body {background-color: #FFFFFF;
+      margin: 40px;
+      font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+      text-align: center;}
+
 h1 {
-  color: #8AAAE5;
-  font-size: 40px;
+  color: #FFFFFF;
+  font-size: 45px;
   text-align: center;
-  background-color: #404756;
+  background-color: #8AAAE5;
   padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
+  margin: 0;
+  border-radius: 0;
 }
 
 h2 {
@@ -15,7 +20,7 @@ h2 {
   background-color: #404756;
   padding: 10px;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 h3 {
@@ -37,14 +42,11 @@ p {
 
 
 html{
-  background: #8AAAE5 url(./images-folder/background-image.jpg);
+  background: #8AAAE5 url(../images-folder/background-image.jpg);
   background-size: cover;
 }
 
-body {background-color: #FFFFFF;
-      margin: 40px;
-      font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-      text-align: center;}
+
 
 img {
   display: block;
@@ -160,16 +162,6 @@ footer {
 }
 
 
-#Name {
-  color: #FFFFFF;
-  font-size: 40px;
-  text-align: center;
-  background-color: #8AAAE5;
-  padding: 10px;
-  margin: 0;
-  border-radius: 0;
-}
-
 /* ====== Form ======*/
 input {
   width: 80%;
@@ -229,14 +221,14 @@ input[type=submit]:hover{background-color: #8AAAE5;
 /* ==============Mobile==============*/
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 25px;
-  }
-
-  #Name {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   h2 {
+    font-size: 25px;
+  }
+
+  h3 {
     font-size: 19px;
   }
 
@@ -247,14 +239,6 @@ input[type=submit]:hover{background-color: #8AAAE5;
   .grids {
     text-align: center;
     display:block;
-}
- .skills-flex{
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: start;
-  height: 40vh;
-}
-
 
 }
 
@@ -262,14 +246,14 @@ input[type=submit]:hover{background-color: #8AAAE5;
 
 @media only screen and (min-width: 769px) and (max-width:1024px) {
   h1 {
-    font-size: 32px;
-  }
-
-  #Name {
-    font-size: 32px;
+    font-size: 36px;
   }
 
   h2 {
+    font-size: 32px;
+  }
+
+  h3 {
     font-size: 24px;
   }
 
